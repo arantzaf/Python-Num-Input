@@ -7,7 +7,7 @@ except ZeroDivisionError:
 except SyntaxError:
     print("Comma is missing. Enter numbers separated by comma like this 1, 2")
 except ():
-    print("Wrong input")
+    print("Wrong input!")
 else:
     print("No exceptions")
 finally:
